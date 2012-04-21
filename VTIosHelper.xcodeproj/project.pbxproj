@@ -22,13 +22,13 @@
 		F83370B01542EBD300611FC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F83370B21542EBD300611FC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F83370B41542EBD300611FC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F83370B81542EBD300611FC9 /* VTIosHelper-Info.plist */ = {isa = PBXFileReference; path = "VTIosHelper-Info.plist"; sourceTree = "<group>"; };
+		F83370B81542EBD300611FC9 /* VTIosHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VTIosHelper-Info.plist"; sourceTree = "<group>"; };
 		F83370BA1542EBD300611FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F83370BC1542EBD300611FC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F83370BE1542EBD300611FC9 /* VTIosHelper-Prefix.pch */ = {isa = PBXFileReference; path = "VTIosHelper-Prefix.pch"; sourceTree = "<group>"; };
-		F83370BF1542EBD300611FC9 /* VTAppDelegate.h */ = {isa = PBXFileReference; path = VTAppDelegate.h; sourceTree = "<group>"; };
+		F83370BE1542EBD300611FC9 /* VTIosHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VTIosHelper-Prefix.pch"; sourceTree = "<group>"; };
+		F83370BF1542EBD300611FC9 /* VTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTAppDelegate.h; sourceTree = "<group>"; };
 		F83370C01542EBD300611FC9 /* VTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTAppDelegate.m; sourceTree = "<group>"; };
-		F83370C21542EBD300611FC9 /* VTViewController.h */ = {isa = PBXFileReference; path = VTViewController.h; sourceTree = "<group>"; };
+		F83370C21542EBD300611FC9 /* VTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTViewController.h; sourceTree = "<group>"; };
 		F83370C31542EBD300611FC9 /* VTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTViewController.m; sourceTree = "<group>"; };
 		F83370C61542EBD300611FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VTViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -238,7 +238,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VTIosHelper/VTIosHelper-Prefix.pch";
 				INFOPLIST_FILE = "VTIosHelper/VTIosHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -249,7 +251,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VTIosHelper/VTIosHelper-Prefix.pch";
 				INFOPLIST_FILE = "VTIosHelper/VTIosHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
