@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F83370B11542EBD300611FC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83370B01542EBD300611FC9 /* UIKit.framework */; };
+		F83370B31542EBD300611FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83370B21542EBD300611FC9 /* Foundation.framework */; };
+		F83370B51542EBD300611FC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83370B41542EBD300611FC9 /* CoreGraphics.framework */; };
+		F83370BB1542EBD300611FC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F83370B91542EBD300611FC9 /* InfoPlist.strings */; };
+		F83370BD1542EBD300611FC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F83370BC1542EBD300611FC9 /* main.m */; };
+		F83370C11542EBD300611FC9 /* VTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F83370C01542EBD300611FC9 /* VTAppDelegate.m */; };
+		F83370C41542EBD300611FC9 /* VTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83370C31542EBD300611FC9 /* VTViewController.m */; };
+		F83370C71542EBD300611FC9 /* VTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F83370C51542EBD300611FC9 /* VTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F83370AC1542EBD300611FC9 /* VTIosHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTIosHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83370B01542EBD300611FC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F83370B21542EBD300611FC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F83370B41542EBD300611FC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F83370B81542EBD300611FC9 /* VTIosHelper-Info.plist */ = {isa = PBXFileReference; path = "VTIosHelper-Info.plist"; sourceTree = "<group>"; };
+		F83370BA1542EBD300611FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F83370BC1542EBD300611FC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F83370BE1542EBD300611FC9 /* VTIosHelper-Prefix.pch */ = {isa = PBXFileReference; path = "VTIosHelper-Prefix.pch"; sourceTree = "<group>"; };
+		F83370BF1542EBD300611FC9 /* VTAppDelegate.h */ = {isa = PBXFileReference; path = VTAppDelegate.h; sourceTree = "<group>"; };
+		F83370C01542EBD300611FC9 /* VTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTAppDelegate.m; sourceTree = "<group>"; };
+		F83370C21542EBD300611FC9 /* VTViewController.h */ = {isa = PBXFileReference; path = VTViewController.h; sourceTree = "<group>"; };
+		F83370C31542EBD300611FC9 /* VTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTViewController.m; sourceTree = "<group>"; };
+		F83370C61542EBD300611FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F83370A91542EBD300611FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83370B11542EBD300611FC9 /* UIKit.framework in Frameworks */,
+				F83370B31542EBD300611FC9 /* Foundation.framework in Frameworks */,
+				F83370B51542EBD300611FC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F83370A11542EBD300611FC9 = {
+			isa = PBXGroup;
+			children = (
+				F83370B61542EBD300611FC9 /* VTIosHelper */,
+				F83370AF1542EBD300611FC9 /* Frameworks */,
+				F83370AD1542EBD300611FC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F83370AD1542EBD300611FC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F83370AC1542EBD300611FC9 /* VTIosHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F83370AF1542EBD300611FC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F83370B01542EBD300611FC9 /* UIKit.framework */,
+				F83370B21542EBD300611FC9 /* Foundation.framework */,
+				F83370B41542EBD300611FC9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F83370B61542EBD300611FC9 /* VTIosHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F83370BF1542EBD300611FC9 /* VTAppDelegate.h */,
+				F83370C01542EBD300611FC9 /* VTAppDelegate.m */,
+				F83370C21542EBD300611FC9 /* VTViewController.h */,
+				F83370C31542EBD300611FC9 /* VTViewController.m */,
+				F83370C51542EBD300611FC9 /* VTViewController.xib */,
+				F83370B71542EBD300611FC9 /* Supporting Files */,
+			);
+			path = VTIosHelper;
+			sourceTree = "<group>";
+		};
+		F83370B71542EBD300611FC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F83370B81542EBD300611FC9 /* VTIosHelper-Info.plist */,
+				F83370B91542EBD300611FC9 /* InfoPlist.strings */,
+				F83370BC1542EBD300611FC9 /* main.m */,
+				F83370BE1542EBD300611FC9 /* VTIosHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F83370AB1542EBD300611FC9 /* VTIosHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83370CA1542EBD300611FC9 /* Build configuration list for PBXNativeTarget "VTIosHelper" */;
+			buildPhases = (
+				F83370A81542EBD300611FC9 /* Sources */,
+				F83370A91542EBD300611FC9 /* Frameworks */,
+				F83370AA1542EBD300611FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTIosHelper;
+			productName = VTIosHelper;
+			productReference = F83370AC1542EBD300611FC9 /* VTIosHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F83370A31542EBD300611FC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F83370A61542EBD300611FC9 /* Build configuration list for PBXProject "VTIosHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F83370A11542EBD300611FC9;
+			productRefGroup = F83370AD1542EBD300611FC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83370AB1542EBD300611FC9 /* VTIosHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F83370AA1542EBD300611FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83370BB1542EBD300611FC9 /* InfoPlist.strings in Resources */,
+				F83370C71542EBD300611FC9 /* VTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F83370A81542EBD300611FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83370BD1542EBD300611FC9 /* main.m in Sources */,
+				F83370C11542EBD300611FC9 /* VTAppDelegate.m in Sources */,
+				F83370C41542EBD300611FC9 /* VTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F83370B91542EBD300611FC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83370BA1542EBD300611FC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F83370C51542EBD300611FC9 /* VTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83370C61542EBD300611FC9 /* en */,
+			);
+			name = VTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F83370C81542EBD300611FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F83370C91542EBD300611FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F83370CB1542EBD300611FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VTIosHelper/VTIosHelper-Prefix.pch";
+				INFOPLIST_FILE = "VTIosHelper/VTIosHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F83370CC1542EBD300611FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VTIosHelper/VTIosHelper-Prefix.pch";
+				INFOPLIST_FILE = "VTIosHelper/VTIosHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83370A61542EBD300611FC9 /* Build configuration list for PBXProject "VTIosHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83370C81542EBD300611FC9 /* Debug */,
+				F83370C91542EBD300611FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83370CA1542EBD300611FC9 /* Build configuration list for PBXNativeTarget "VTIosHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83370CB1542EBD300611FC9 /* Debug */,
+				F83370CC1542EBD300611FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F83370A31542EBD300611FC9 /* Project object */;
+}
