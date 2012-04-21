@@ -15,6 +15,7 @@
 		F83370C11542EBD300611FC9 /* VTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F83370C01542EBD300611FC9 /* VTAppDelegate.m */; };
 		F83370C41542EBD300611FC9 /* VTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83370C31542EBD300611FC9 /* VTViewController.m */; };
 		F83370C71542EBD300611FC9 /* VTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F83370C51542EBD300611FC9 /* VTViewController.xib */; };
+		F83370CF1542F31C00611FC9 /* VTIosHelperMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F83370CE1542F31C00611FC9 /* VTIosHelperMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		F83370C21542EBD300611FC9 /* VTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTViewController.h; sourceTree = "<group>"; };
 		F83370C31542EBD300611FC9 /* VTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTViewController.m; sourceTree = "<group>"; };
 		F83370C61542EBD300611FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VTViewController.xib; sourceTree = "<group>"; };
+		F83370CD1542F31C00611FC9 /* VTIosHelperMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTIosHelperMain.h; sourceTree = "<group>"; };
+		F83370CE1542F31C00611FC9 /* VTIosHelperMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTIosHelperMain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				F83370C31542EBD300611FC9 /* VTViewController.m */,
 				F83370C51542EBD300611FC9 /* VTViewController.xib */,
 				F83370B71542EBD300611FC9 /* Supporting Files */,
+				F83370CD1542F31C00611FC9 /* VTIosHelperMain.h */,
+				F83370CE1542F31C00611FC9 /* VTIosHelperMain.m */,
 			);
 			path = VTIosHelper;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				F83370BD1542EBD300611FC9 /* main.m in Sources */,
 				F83370C11542EBD300611FC9 /* VTAppDelegate.m in Sources */,
 				F83370C41542EBD300611FC9 /* VTViewController.m in Sources */,
+				F83370CF1542F31C00611FC9 /* VTIosHelperMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
